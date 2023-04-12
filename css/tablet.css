@@ -1,0 +1,61 @@
+@media screen and (max-width: 992px) {
+  #banner h1 {
+    position: absolute;
+    top: 100px;
+    left: 37%;
+    color: white;
+  }
+  #banner span {
+    position: absolute;
+    top: 150px;
+    left: 43%;
+    font-size: 150%;
+    color: white;
+  }
+  .hidden-nav-img {
+    display: none;
+  }
+  #nav-bar nav {
+    /* tạo 1 grid cho nav */
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.05fr 0.05fr 1fr 1fr;
+  }
+  .nav-bar-textaline {
+    text-align: center;
+  }
+
+  .job-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+    justify-content: space-between;
+  }
+
+  .certificate-img {
+    width: 100% !important;
+  }
+  .certificate-content {
+    padding-left: 0px !important;
+    padding-top: 20px;
+  }
+  .borderdbi {
+    padding-left: 20px !important;
+    border-left: 1px solid gold;
+  }
+
+  .project-title {
+    height: 90px;
+    text-align: left !important;
+  }
+  .motadong2 {
+    display: block !important;
+  }
+  .motadong3 {
+    height: 200px !important;
+  }
+}
+
+/*@media screen and (max-width: 767px) {
+  .motadong3 {
+    height: 300px !important;
+  }
+}*/

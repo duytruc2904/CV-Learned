@@ -1,0 +1,83 @@
+@media screen and (max-width: 768px) {
+  #banner h1 {
+    position: absolute;
+    top: 40px;
+    left: 25%;
+    color: white;
+  }
+  #banner span {
+    position: absolute;
+    top: 80px;
+    left: 35%;
+    font-size: 150%;
+    color: white;
+  }
+  #nav-bar nav {
+    /* tạo 1 grid cho nav */
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .thongtin,
+  .lylich,
+  .chungchi,
+  .duan {
+    border: none;
+    font-size: 130%;
+  }
+
+  .job-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    justify-content: space-between;
+  }
+  .job-content {
+    align-self: flex-start;
+  }
+
+  .certificate-flexbox {
+    flex-direction: column;
+  }
+
+  .certificate-dbi {
+    padding-left: 0px !important;
+    padding-top: 30px;
+  }
+  .certificate-dbi img {
+    padding-left: 20px !important;
+    border: none;
+  }
+  .borderdbi {
+    border: none;
+  }
+
+  .project-flexbox {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .project-cvcanhan {
+    width: 100%;
+  }
+  .project-title {
+    height: auto !important;
+    text-align: center !important;
+  }
+  .motadong3 {
+    height: auto !important;
+  }
+  .project-introduce {
+    flex-direction: column;
+  }
+  .project-introduce span {
+    margin-bottom: 20px;
+  }
+
+  #footer {
+    font-size: 150%;
+  }
+  #footer span {
+    display: none;
+  }
+}

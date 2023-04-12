@@ -1,0 +1,55 @@
+.bg-aqua {
+  background-color: rgb(188, 243, 225);
+}
+
+#goals {
+  padding: 0px 1.5rem;
+  grid-column: 1;
+  grid-row: 1;
+}
+#scopes {
+  padding: 0px 1.5rem;
+  grid-column: 1;
+  grid-row: 2;
+}
+#team {
+  padding: 0px 1.5rem;
+  grid-column: 2;
+  grid-row: 1;
+}
+#primary {
+  padding: 0px 1.5rem;
+  grid-column: 2;
+  grid-row: 2;
+}
+#timeline {
+  padding: 0px 1.5rem;
+  grid-column: 3;
+  grid-row: 1 / span 2;
+  align-items: center;
+}
+
+.icondes {
+  text-align: center;
+  align-self: center;
+  font-size: 200%;
+}
+
+.icontimeline {
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: aqua;
+  font-size: 25px;
+}
+.bordercontent-timelilne {
+  border-bottom: 1px dotted black;
+}
+
+@media screen and (min-width: 992px) {
+  .gridproject {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 1rem;
+  }
+}
